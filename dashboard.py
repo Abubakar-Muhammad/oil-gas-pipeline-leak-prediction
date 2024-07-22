@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 import pandas as pd
 import pickle
 
-#LSTM_model = load_model('LSTM_model.keras')
+LSTM_model = load_model('LSTM_model.keras')
 SVM_model = pickle.load(open('svm_model.pkl','rb'))
 RF_model = pickle.load(open('rf_model.pkl','rb'))
 scaler = pickle.load(open('scaler.pkl','rb'))
